@@ -3,7 +3,6 @@
 //===================vars=================
 WiFiClient wifiClient;
 PubSubClient client(wifiClient, mqtt_server, mqtt_port);
-WiFiClientSecure httpClient;
 
 void initVar() {
   DynamicJsonBuffer jsonBuffer;
